@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Type your js script here and press done!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="72C-a6-5ON">
-                                <rect key="frame" x="0.0" y="64" width="320" height="119"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="464"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -29,7 +29,7 @@
                             <constraint firstAttribute="trailing" secondItem="72C-a6-5ON" secondAttribute="trailing" id="5Fe-tJ-FEB"/>
                             <constraint firstItem="72C-a6-5ON" firstAttribute="top" secondItem="qkL-Od-lgU" secondAttribute="bottom" id="Joi-pX-B7Z"/>
                             <constraint firstItem="72C-a6-5ON" firstAttribute="leading" secondItem="zMn-AG-sqS" secondAttribute="leading" id="Y8y-IW-7Zj"/>
-                            <constraint firstItem="n38-gi-rB5" firstAttribute="top" secondItem="72C-a6-5ON" secondAttribute="bottom" constant="345" id="x7K-0F-HPo"/>
+                            <constraint firstItem="n38-gi-rB5" firstAttribute="top" secondItem="72C-a6-5ON" secondAttribute="bottom" id="x7K-0F-HPo"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="6TL-d9-gRJ"/>
