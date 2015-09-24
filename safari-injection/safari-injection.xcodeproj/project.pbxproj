@@ -15,6 +15,7 @@
 		160419601BB386FF00DF4F0C /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1604195F1BB386FF00DF4F0C /* ActionViewController.swift */; };
 		160419631BB386FF00DF4F0C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160419611BB386FF00DF4F0C /* MainInterface.storyboard */; };
 		160419671BB386FF00DF4F0C /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1604195D1BB386FF00DF4F0C /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1604196D1BB38A2900DF4F0C /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = 1604196C1BB38A2900DF4F0C /* Action.js */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		1604195F1BB386FF00DF4F0C /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
 		160419621BB386FF00DF4F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		160419641BB386FF00DF4F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1604196C1BB38A2900DF4F0C /* Action.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Action.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				1604195F1BB386FF00DF4F0C /* ActionViewController.swift */,
 				160419611BB386FF00DF4F0C /* MainInterface.storyboard */,
 				160419641BB386FF00DF4F0C /* Info.plist */,
+				1604196C1BB38A2900DF4F0C /* Action.js */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1604196D1BB38A2900DF4F0C /* Action.js in Resources */,
 				160419631BB386FF00DF4F0C /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
